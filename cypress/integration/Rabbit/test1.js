@@ -19,10 +19,6 @@ describe("Login", function(){
       cy.get('.btn-primary').eq(4).contains('Next').click()
       cy.get('.form-check-label').contains('Consent').click()
       cy.get('#btn-marketing-consent').should('be.enabled')
-
-      //cy.get('input[type="email"]').type('qamilestone.academy@gmail.com')
-      //cy.get('input[type="password"').type('admin123')
-      //cy.get('.btn').contains('Sign in').click()
   })
 })
 
